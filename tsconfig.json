@@ -8,10 +8,10 @@
       "path": "./apps/docs/tsconfig.json"
     },
     {
-      "path": "./packages/pkg1/tsconfig.json"
+      "path": "./packages/api/tsconfig.json"
     },
     {
-      "path": "./packages/pkg2/tsconfig.json"
+      "path": "./packages/utils/tsconfig.json"
     }
   ]
 }

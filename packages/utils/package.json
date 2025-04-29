@@ -1,5 +1,5 @@
 {
-  "name": "@starter-monorepo/pkg1",
+  "name": "@starter-monorepo/utils",
   "type": "module",
   "version": "0.0.1",
   "main": "index.ts",
