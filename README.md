@@ -41,14 +41,14 @@ After running these commands:
 
 ```graphql
 starter-monorepo/
-├── apps/                  # Application packages
+│
+├── apps/                  # Applications
 │   ├── astro-app/         # Main Astro application with React & tRPC
 │   └── docs/              # Documentation site built with Starlight
 │
-├── packages/              # Shared packages
-│   ├── api/               # tRPC API definitions and server code
-│   └── utils/             # Shared utility functions
-└── pnpm-workspace.yaml    # Workspace configuration
+└── packages/              # Packages
+    ├── api/               # tRPC API definitions and server code
+    └── utils/             # Shared utility functions
 ```
 
 ## Available Commands
@@ -69,10 +69,18 @@ starter-monorepo/
 
 ## Deployment
 
-This monorepo is ready to deploy to platforms like Vercel. Each application can be deployed separately:
+This monorepo is configured for seamless deployment to Vercel. Each app can be deployed independently:
 
-1. Connect your GitHub repository to Vercel
-2. Set the root directory for each application (e.g., `apps/astro-app`)
-3. Configure build settings according to the application
+1. Connect your GitHub repo to Vercel
+2. Select the app's root directory (e.g., `apps/astro-app`)
 
-For detailed deployment instructions, see [Vercel's monorepo documentation](https://vercel.com/docs/monorepos).
+The monorepo structure is fully compatible with Vercel's build system. For advanced configuration options, check [Vercel's monorepo docs](https://vercel.com/docs/monorepos).
+
+Live demos:
+
+- Astro app: https://starter-monorepo-astro-app.vercel.app/
+- Documentation: https://starter-monorepo-docs.vercel.app/
+
+For every pull request, Vercel will automatically deploy the changes to a preview URL.
+
+![Vercel pull request preview](https://github.com/user-attachments/assets/b90bc65f-0d83-4e30-b6bb-9b1e334b2405)
