@@ -4,12 +4,27 @@
   "version": "0.0.1",
   "main": "index.ts",
   "exports": {
-    ".": "./src/index.ts"
+    ".": "./src/index.ts",
+    "./style": "./src/style.css"
+  },
+  "scripts": {
+    "build": "tsdown"
   },
   "dependencies": {
     "@starter-monorepo/pkg1": "workspace:*"
   },
   "devDependencies": {
+    "tsdown": "^0.10.1",
     "typescript": "^5.8.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "main": "./dist/index.js",
+    "module": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "exports": {
+      ".": "./dist/index.js",
+      "./style": "./dist/style.css"
+    }
   }
 }
