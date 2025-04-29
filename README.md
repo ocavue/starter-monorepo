@@ -41,14 +41,14 @@ After running these commands:
 
 ```graphql
 starter-monorepo/
-├── apps/                  # Application packages
+│
+├── apps/                  # Applications
 │   ├── astro-app/         # Main Astro application with React & tRPC
 │   └── docs/              # Documentation site built with Starlight
 │
-├── packages/              # Shared packages
-│   ├── api/               # tRPC API definitions and server code
-│   └── utils/             # Shared utility functions
-└── pnpm-workspace.yaml    # Workspace configuration
+└── packages/              # Packages
+    ├── api/               # tRPC API definitions and server code
+    └── utils/             # Shared utility functions
 ```
 
 ## Available Commands
@@ -76,3 +76,8 @@ This monorepo is ready to deploy to platforms like Vercel. Each application can 
 3. Configure build settings according to the application
 
 For detailed deployment instructions, see [Vercel's monorepo documentation](https://vercel.com/docs/monorepos).
+
+The two applications are deployed to Vercel:
+
+- Astro app: https://starter-monorepo-astro-app.vercel.app/
+- Documentation: https://starter-monorepo-docs.vercel.app/
