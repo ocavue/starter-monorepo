@@ -27,8 +27,9 @@
 
 ## Project structure
 
-- `packages/utls` - A package that can be used in other projects.
-- `apps/astro-app` - An Astro app using [tRPC](https://trpc.io/) and [React Query](https://tanstack.com/query/latest).
+- `packages/utils` - A package that can be used in other projects. You can think of it as `lodash` for your monorepo.
+- `packages/api` - All the server side code for your tRPC API.
+- `apps/astro-app` - An Astro app. It serves both client and server side code. It uses `packages/api` to serve the API.
 - `apps/docs` - A beautiful documentation app built with [Starlight](https://starlight.astro.build/) and [Nova theme](https://github.com/ocavue/starlight-theme-nova).
 
 ## Deploy to Vercel
