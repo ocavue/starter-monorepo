@@ -7,6 +7,7 @@
 - Prettier for formatting.
 - Renovate for dependency management.
 - Automatically fix linting and formatting errors with Autofix CI in your pull requests.
+- Use [Turborepo](https://turbo.build/) for building and running the project.
 
 ## Usage
 
@@ -18,6 +19,8 @@
 
 ## Scripts
 
+- `pnpm run dev` - start the development server for all apps
+- `pnpm run build` - build all packages and apps
 - `pnpm run fix` - fix linting and formatting
 - `pnpm run typecheck` - typecheck the project using TypeScript
 - `pnpm run lint` - lint the project using ESLint
