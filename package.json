@@ -5,6 +5,7 @@
   "private": true,
   "packageManager": "pnpm@10.10.0",
   "scripts": {
+    "lint": "eslint .",
     "typecheck": "tsc -b",
     "fix": "pnpm run fix:tsconfig && pnpm run fix:eslint && pnpm run fix:prettier",
     "fix:prettier": "prettier --write .",
