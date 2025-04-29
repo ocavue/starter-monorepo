@@ -1,0 +1,12 @@
+{
+  "extends": "@ocavue/tsconfig/es/root.json",
+  "files": [],
+  "references": [
+    {
+      "path": "./packages/pkg1/tsconfig.json"
+    },
+    {
+      "path": "./packages/pkg2/tsconfig.json"
+    }
+  ]
+}

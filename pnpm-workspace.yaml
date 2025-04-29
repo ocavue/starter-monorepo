@@ -1,0 +1,7 @@
+packages:
+  - website
+  - examples/*
+  - packages/*
+  - apps/*
+
+linkWorkspacePackages: deep

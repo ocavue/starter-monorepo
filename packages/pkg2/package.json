@@ -1,0 +1,15 @@
+{
+  "name": "@starter-monorepo/pkg2",
+  "type": "module",
+  "version": "0.0.1",
+  "main": "index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@starter-monorepo/pkg1": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
