@@ -30,3 +30,5 @@
 - `apps/astro-app` - An Astro app.
 
 ## Deploy to Vercel
+
+To deploy to Vercel, please check Vercel's [documentation](https://vercel.com/docs/monorepos). Note that you can deploy multiple apps from the same monorepo to Vercel.
