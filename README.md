@@ -29,4 +29,4 @@
 - `apps/docs` - A beautiful documentation app built with [Starlight](https://starlight.astro.build/) and [Nova theme](https://github.com/ocavue/starlight-theme-nova).
 - `apps/astro-app` - An Astro app.
 
-## Deploy to Vercel 
+## Deploy to Vercel
