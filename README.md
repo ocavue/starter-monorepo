@@ -82,3 +82,5 @@ Live demos:
 - Documentation: https://starter-monorepo-docs.vercel.app/
 
 For every pull request, Vercel will automatically deploy the changes to a preview URL.
+
+![Vercel pull request preview](https://github.com/user-attachments/assets/b90bc65f-0d83-4e30-b6bb-9b1e334b2405)
