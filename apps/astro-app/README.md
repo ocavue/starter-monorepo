@@ -44,14 +44,17 @@ This is a simple Astro application that demonstrates how to use React components
 ## Getting Started
 
 1. **Install dependencies**:
+
    ```
    pnpm install
    ```
 
 2. **Start the development server**:
+
    ```
    pnpm dev
    ```
+
    This will start the application at `http://localhost:3001`
 
 3. **Build for production**:
