@@ -2,7 +2,7 @@
   "extends": "@ocavue/tsconfig/dom/app.json",
   "references": [
     {
-      "path": "../pkg1/tsconfig.json"
+      "path": "../utils/tsconfig.json"
     }
   ]
 }

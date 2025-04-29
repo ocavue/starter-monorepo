@@ -1,37 +1,78 @@
-# Monorepo starter
+# Modern Monorepo Starter
 
-## Features
+A complete, ready-to-use starter template for building modern web applications in a monorepo structure. This template helps you build full-stack TypeScript applications with shared code between packages.
 
-- Fully typed with TypeScript. Use [project references](https://typescriptlang.org/docs/handbook/project-references.html) to share types across packages and maximize speed.
-- ESLint for linting.
-- Prettier for formatting.
-- Renovate for dependency management.
-- Automatically fix linting and formatting errors with Autofix CI in your pull requests.
-- Use [Turborepo](https://turbo.build/) for building and running the project.
+## What's Included
 
-## Usage
+This starter comes with everything you need to build professional web applications:
 
-1. Run `npx degit ocavue/starter-monorepo YOUR_MONOREPO_NAME` to create a new repository.
-2. Replace `starter-monorepo` with your monorepo name in the codebase.
-3. Push your repository to GitHub.
-4. Go to https://github.com/apps/renovate to install the Renovate app.
-5. Go to https://github.com/apps/autofix-ci to install the Autofix CI app.
+- **React & Astro** - Build interactive UIs with React components in Astro
+- **tRPC** - End-to-end type-safe APIs without schemas or code generation
+- **Tailwind CSS** - Utility-first CSS framework for rapid UI development
+- **TypeScript** - Full type safety across all packages
+- **Turborepo** - High-performance build system for JavaScript/TypeScript monorepos
+- **PNPM Workspaces** - Fast, disk-efficient package management
+- **ESLint & Prettier** - Code quality tools configured and ready to use
+- **Renovate** - Automated dependency updates
+- **Documentation** - Clean documentation site using Starlight
 
-## Scripts
+## Quick Start
 
-- `pnpm run dev` - start the development server for all apps
-- `pnpm run build` - build all packages and apps
-- `pnpm run fix` - fix linting and formatting
-- `pnpm run typecheck` - typecheck the project using TypeScript
-- `pnpm run lint` - lint the project using ESLint
+```bash
+# Create a new project
+npx degit ocavue/starter-monorepo my-project
 
-## Project structure
+# Navigate to the project
+cd my-project
 
-- `packages/pkg1` - A package that can be used in other projects.
-- `packages/pkg2` - A package that can be used in other projects. It depends on `pkg1`.
-- `apps/docs` - A beautiful documentation app built with [Starlight](https://starlight.astro.build/) and [Nova theme](https://github.com/ocavue/starlight-theme-nova).
-- `apps/astro-app` - An Astro app.
+# Install dependencies
+pnpm install
 
-## Deploy to Vercel
+# Start development servers
+pnpm dev
+```
 
-To deploy to Vercel, please check Vercel's [documentation](https://vercel.com/docs/monorepos). Note that you can deploy multiple apps from the same monorepo to Vercel.
+After running these commands:
+
+- Astro app: http://localhost:3001
+- Documentation: http://localhost:3002
+
+## Project Structure
+
+```graphql
+starter-monorepo/
+├── apps/                  # Application packages
+│   ├── astro-app/         # Main Astro application with React & tRPC
+│   └── docs/              # Documentation site built with Starlight
+│
+├── packages/              # Shared packages
+│   ├── api/               # tRPC API definitions and server code
+│   └── utils/             # Shared utility functions
+└── pnpm-workspace.yaml    # Workspace configuration
+```
+
+## Available Commands
+
+| Command          | Description                         |
+| ---------------- | ----------------------------------- |
+| `pnpm dev`       | Start all development servers       |
+| `pnpm build`     | Build all packages and applications |
+| `pnpm typecheck` | Run TypeScript type checking        |
+| `pnpm lint`      | Run ESLint on all files             |
+| `pnpm fix`       | Fix linting and formatting issues   |
+
+## Setting Up GitHub Integration
+
+1. Push your repository to GitHub
+2. Install the [Renovate](https://github.com/apps/renovate) app for automated dependency updates
+3. Install the [Autofix CI](https://github.com/apps/autofix-ci) app to automatically fix linting/formatting in PRs
+
+## Deployment
+
+This monorepo is ready to deploy to platforms like Vercel. Each application can be deployed separately:
+
+1. Connect your GitHub repository to Vercel
+2. Set the root directory for each application (e.g., `apps/astro-app`)
+3. Configure build settings according to the application
+
+For detailed deployment instructions, see [Vercel's monorepo documentation](https://vercel.com/docs/monorepos).
