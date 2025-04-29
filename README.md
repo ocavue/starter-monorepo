@@ -28,3 +28,5 @@
 - `packages/pkg2` - A package that can be used in other projects. It depends on `pkg1`.
 - `apps/docs` - A beautiful documentation app built with [Starlight](https://starlight.astro.build/) and [Nova theme](https://github.com/ocavue/starlight-theme-nova).
 - `apps/astro-app` - An Astro app.
+
+## Deploy to Vercel 
