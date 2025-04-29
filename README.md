@@ -51,16 +51,15 @@ starter-monorepo/
 └── pnpm-workspace.yaml    # Workspace configuration
 ```
 
-
 ## Available Commands
 
-| Command             | Description                         |
-| ------------------- | ----------------------------------- |
-| `pnpm dev`          | Start all development servers       |
-| `pnpm build`        | Build all packages and applications |
-| `pnpm typecheck`    | Run TypeScript type checking        |
-| `pnpm lint`         | Run ESLint on all files             |
-| `pnpm fix`          | Fix linting and formatting issues   |
+| Command          | Description                         |
+| ---------------- | ----------------------------------- |
+| `pnpm dev`       | Start all development servers       |
+| `pnpm build`     | Build all packages and applications |
+| `pnpm typecheck` | Run TypeScript type checking        |
+| `pnpm lint`      | Run ESLint on all files             |
+| `pnpm fix`       | Fix linting and formatting issues   |
 
 ## Setting Up GitHub Integration
 
