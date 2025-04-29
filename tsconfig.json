@@ -3,6 +3,9 @@
   "files": [],
   "references": [
     {
+      "path": "./apps/astro-app/tsconfig.json"
+    },
+    {
       "path": "./packages/pkg1/tsconfig.json"
     },
     {
