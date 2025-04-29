@@ -39,7 +39,7 @@ After running these commands:
 
 ## Project Structure
 
-```
+```graphql
 starter-monorepo/
 ├── apps/                  # Application packages
 │   ├── astro-app/         # Main Astro application with React & tRPC
@@ -47,17 +47,10 @@ starter-monorepo/
 │
 ├── packages/              # Shared packages
 │   ├── api/               # tRPC API definitions and server code
-│   └── pkg1/              # Example shared utility package
-│
+│   └── utils/             # Shared utility functions
 └── pnpm-workspace.yaml    # Workspace configuration
 ```
 
-### Key Packages
-
-- **apps/astro-app**: A full-featured Astro application with React components and tRPC integration for type-safe API calls.
-- **apps/docs**: Beautiful documentation site built with Starlight, featuring the modern Nova theme.
-- **packages/api**: Contains all your tRPC router definitions, providing type-safe API endpoints.
-- **packages/pkg1**: Example utility package that can be imported by any application in the monorepo.
 
 ## Available Commands
 
@@ -68,8 +61,6 @@ starter-monorepo/
 | `pnpm typecheck`    | Run TypeScript type checking        |
 | `pnpm lint`         | Run ESLint on all files             |
 | `pnpm fix`          | Fix linting and formatting issues   |
-| `pnpm fix:prettier` | Fix formatting issues with Prettier |
-| `pnpm fix:eslint`   | Fix linting issues with ESLint      |
 
 ## Setting Up GitHub Integration
 
@@ -86,11 +77,3 @@ This monorepo is ready to deploy to platforms like Vercel. Each application can 
 3. Configure build settings according to the application
 
 For detailed deployment instructions, see [Vercel's monorepo documentation](https://vercel.com/docs/monorepos).
-
-## Why This Starter?
-
-- **Developer Experience**: Type safety across the entire stack
-- **Performance**: Optimized builds and development with Turborepo
-- **Modern Stack**: Latest tools and libraries for building web applications
-- **Scalability**: Easily add new packages and applications as your project grows
-- **Maintainability**: Consistent code style and automated updates
