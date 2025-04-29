@@ -21,7 +21,7 @@ importers:
         specifier: ^1.0.1
         version: 1.0.1
       prettier:
-        specifier: ^3.5.3
+        specifier: ^3.5.2
         version: 3.5.3
       prettier-plugin-astro:
         specifier: ^0.14.1
