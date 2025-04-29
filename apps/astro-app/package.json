@@ -1,0 +1,17 @@
+{
+  "name": "@starter-monorepo/astro-app",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "postinstall": "astro sync"
+  },
+  "dependencies": {
+    "astro": "^5.7.7",
+    "typescript": "^5.8.3"
+  }
+}

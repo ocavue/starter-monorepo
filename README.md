@@ -21,3 +21,10 @@
 - `pnpm run fix` - fix linting and formatting
 - `pnpm run typecheck` - typecheck the project using TypeScript
 - `pnpm run lint` - lint the project using ESLint
+
+## Project structure
+
+- `packages/pkg1` - A package that can be used in other projects.
+- `packages/pkg2` - A package that can be used in other projects. It depends on `pkg1`.
+- `apps/docs` - A beautiful documentation app built with [Starlight](https://starlight.astro.build/) and [Nova theme](https://github.com/ocavue/starlight-theme-nova).
+- `apps/astro-app` - An Astro app.
