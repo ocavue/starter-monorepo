@@ -1,12 +1,12 @@
 import react from '@astrojs/react'
-import vercel from '@astrojs/vercel'
+import vercelServerless from '@astrojs/vercel/serverless'
 import tailwindcss from '@tailwindcss/vite'
 import { defineConfig } from 'astro/config'
 
 // https://astro.build/config
 const config: unknown = defineConfig({
   output: 'server',
-  adapter: vercel(),
+  adapter: vercelServerless({}),
   integrations: [react()],
   vite: {
     plugins: [tailwindcss()],
