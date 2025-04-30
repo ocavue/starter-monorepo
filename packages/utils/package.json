@@ -10,7 +10,7 @@
     "build": "tsdown"
   },
   "devDependencies": {
-    "tsdown": "^0.10.1",
+    "tsdown": "^0.10.2",
     "typescript": "^5.8.3"
   },
   "publishConfig": {
