@@ -1,6 +1,3 @@
-import { basic, markdown, react } from '@ocavue/eslint-config'
+import { defineConfig } from '@ocavue/eslint-config'
 
-/** @type {import('eslint').Linter.Config[]} */
-const configs = [...basic(), ...markdown(), ...react()]
-
-export default configs
+export default defineConfig({ react: true })
