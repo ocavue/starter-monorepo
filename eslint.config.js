@@ -1,3 +1,3 @@
-import { defineConfig } from '@ocavue/eslint-config'
+import { defineESLintConfig } from '@ocavue/eslint-config'
 
-export default defineConfig({ react: true })
+export default defineESLintConfig({ react: true })
