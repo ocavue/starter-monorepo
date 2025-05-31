@@ -1,9 +1,9 @@
 {
   "name": "@starter-monorepo/astro-app",
   "type": "module",
-  "description": "An Astro app",
   "version": "0.0.0",
   "private": true,
+  "description": "An Astro app",
   "scripts": {
     "dev": "astro dev --port 3001",
     "build": "astro build",

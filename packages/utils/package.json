@@ -2,8 +2,8 @@
   "name": "@starter-monorepo/utils",
   "type": "module",
   "version": "0.0.1",
-  "main": "index.ts",
   "description": "Shared utilities",
+  "main": "index.ts",
   "exports": {
     ".": "./src/index.ts"
   },

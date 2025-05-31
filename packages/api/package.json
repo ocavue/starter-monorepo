@@ -3,8 +3,8 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
-  "main": "index.ts",
   "description": "Backend tRPC API implementation",
+  "main": "index.ts",
   "exports": {
     ".": "./src/index.ts"
   },
