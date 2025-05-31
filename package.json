@@ -3,6 +3,7 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
+  "description": "Monorepo for the starter monorepo",
   "packageManager": "pnpm@10.10.0",
   "scripts": {
     "dev": "turbo run dev",

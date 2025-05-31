@@ -1,6 +1,7 @@
 {
   "name": "@starter-monorepo/astro-app",
   "type": "module",
+  "description": "An Astro app",
   "version": "0.0.0",
   "private": true,
   "scripts": {
