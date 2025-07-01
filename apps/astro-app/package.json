@@ -12,24 +12,24 @@
     "postinstall": "astro sync"
   },
   "dependencies": {
-    "@tanstack/react-query": "^5.80.10",
-    "@trpc/client": "^11.4.2",
-    "@trpc/react-query": "^11.4.2",
-    "@trpc/tanstack-react-query": "^11.4.2",
+    "@tanstack/react-query": "^5.81.5",
+    "@trpc/client": "^11.4.3",
+    "@trpc/react-query": "^11.4.3",
+    "@trpc/tanstack-react-query": "^11.4.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
     "@astrojs/react": "^4.3.0",
-    "@astrojs/vercel": "^8.1.5",
+    "@astrojs/vercel": "^8.2.0",
     "@starter-monorepo/api": "workspace:^",
     "@starter-monorepo/utils": "workspace:^",
-    "@tailwindcss/vite": "^4.1.10",
-    "@trpc/server": "^11.4.2",
+    "@tailwindcss/vite": "^4.1.11",
+    "@trpc/server": "^11.4.3",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
-    "astro": "^5.9.4",
-    "tailwindcss": "^4.1.10",
+    "astro": "^5.10.1",
+    "tailwindcss": "^4.1.11",
     "typescript": "^5.8.3"
   }
 }
