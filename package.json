@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@10.12.1",
+  "packageManager": "pnpm@10.12.4",
   "description": "Monorepo for the starter monorepo",
   "scripts": {
     "dev": "turbo run dev",
@@ -20,7 +20,7 @@
     "@ocavue/tsconfig": "^0.3.7",
     "eslint": "^9.28.0",
     "monorepo-typescript-references": "^1.1.0",
-    "prettier": "^3.5.3",
+    "prettier": "^3.6.2",
     "prettier-plugin-astro": "^0.14.1",
     "turbo": "^2.5.5-canary.0",
     "typescript": "^5.8.3"
