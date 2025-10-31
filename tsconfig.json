@@ -8,6 +8,9 @@
       "path": "./apps/docs/tsconfig.json"
     },
     {
+      "path": "./apps/nextjs-app/tsconfig.json"
+    },
+    {
       "path": "./packages/api/tsconfig.json"
     },
     {
