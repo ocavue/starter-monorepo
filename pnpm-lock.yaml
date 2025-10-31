@@ -103,7 +103,7 @@ importers:
         specifier: ^0.9.5
         version: 0.9.5(@astrojs/starlight@0.36.1(astro@5.15.3(@types/node@20.19.24)(@vercel/functions@2.2.13)(jiti@2.6.1)(lightningcss@1.30.2)(rollup@4.40.1)(typescript@5.9.3)(yaml@2.7.1)))(typescript@5.9.3)
 
-  apps/nexjs-app:
+  apps/nextjs-app:
     dependencies:
       next:
         specifier: 16.0.1
