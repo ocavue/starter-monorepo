@@ -1,9 +1,9 @@
 {
   "name": "@starter-monorepo/nextjs-app",
-  "version": "0.1.0",
   "type": "module",
-  "description": "A Next.js app",
+  "version": "0.1.0",
   "private": true,
+  "description": "A Next.js app",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,16 +11,16 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "next": "^16.0.1",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "next": "^16.0.1"
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
-    "typescript": "^5.9.3",
+    "@tailwindcss/postcss": "^4.1.16",
     "@types/node": "^24.9.2",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
-    "@tailwindcss/postcss": "^4.1.16",
-    "tailwindcss": "^4.1.16"
+    "tailwindcss": "^4.1.16",
+    "typescript": "^5.9.3"
   }
 }
