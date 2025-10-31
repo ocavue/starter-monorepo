@@ -2,6 +2,7 @@
   "name": "@starter-monorepo/docs",
   "type": "module",
   "version": "0.0.1",
+  "private": true,
   "description": "A docs site",
   "scripts": {
     "dev": "astro dev --port 3002",
