@@ -44,6 +44,7 @@ starter-monorepo/
 │
 ├── apps/                  # Applications
 │   ├── astro-app/         # Main Astro application with React & tRPC
+│   ├── nextjs-app/        # Main Next.js application
 │   └── docs/              # Documentation site built with Starlight
 │
 └── packages/              # Packages
@@ -79,6 +80,7 @@ The monorepo structure is fully compatible with Vercel's build system. For advan
 Live demos:
 
 - Astro app: https://starter-monorepo-astro-app.vercel.app/
+- Next.js app: https://starter-monorepo-nextjs-app.vercel.app/
 - Documentation: https://starter-monorepo-docs.vercel.app/
 
 For every pull request, Vercel will automatically deploy the changes to a preview URL.
