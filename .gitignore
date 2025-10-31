@@ -20,3 +20,4 @@ temp
 .svelte-kit
 playwright-report
 .next
+next-env.d.ts
