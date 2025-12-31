@@ -11,9 +11,9 @@
   "scripts": {},
   "dependencies": {
     "@starter-monorepo/utils": "workspace:*",
-    "@trpc/server": "^11.7.1",
+    "@trpc/server": "^11.8.1",
     "uuid": "^13.0.0",
-    "zod": "^4.1.12"
+    "zod": "^4.2.1"
   },
   "devDependencies": {
     "typescript": "^5.9.3"
