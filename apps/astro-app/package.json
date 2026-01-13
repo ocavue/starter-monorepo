@@ -21,14 +21,14 @@
   },
   "devDependencies": {
     "@astrojs/react": "^4.4.2",
-    "@astrojs/vercel": "^9.0.2",
+    "@astrojs/vercel": "^9.0.3",
     "@starter-monorepo/api": "workspace:^",
     "@starter-monorepo/utils": "workspace:^",
     "@tailwindcss/vite": "^4.1.18",
     "@trpc/server": "^11.8.1",
-    "@types/react": "^19.2.7",
+    "@types/react": "^19.2.8",
     "@types/react-dom": "^19.2.3",
-    "astro": "^5.16.6",
+    "astro": "^5.16.8",
     "tailwindcss": "^4.1.18",
     "typescript": "^5.9.3"
   }
