@@ -20,15 +20,15 @@
     "react-dom": "^19.2.4"
   },
   "devDependencies": {
-    "@astrojs/react": "^4.4.2",
-    "@astrojs/vercel": "^9.0.4",
+    "@astrojs/react": "^5.0.2",
+    "@astrojs/vercel": "^10.0.3",
     "@starter-monorepo/api": "workspace:^",
     "@starter-monorepo/utils": "workspace:^",
     "@tailwindcss/vite": "^4.1.18",
     "@trpc/server": "^11.9.0",
     "@types/react": "^19.2.13",
     "@types/react-dom": "^19.2.3",
-    "astro": "^5.17.1",
+    "astro": "^6.1.2",
     "tailwindcss": "^4.1.18",
     "typescript": "^5.9.3"
   }
