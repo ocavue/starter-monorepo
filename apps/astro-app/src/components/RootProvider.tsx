@@ -16,7 +16,7 @@ function makeQueryClient() {
     },
   })
 }
-let browserQueryClient: QueryClient | undefined = undefined
+let browserQueryClient: QueryClient | undefined
 function getQueryClient() {
   if (typeof window === 'undefined') {
     // Server: always make a new query client
@@ -43,15 +43,15 @@ function getUrl() {
 // https://trpc.io/docs/client/tanstack-react-query/setup
 export function RootProvider({ children }: { children: React.ReactNode }) {
   const queryClient = getQueryClient()
-  const [trpcClient] = useState(() =>
-    createTRPCClient<AppRouter>({
+  const [trpcClient] = useState(() => {
+    return createTRPCClient<AppRouter>({
       links: [
         httpBatchLink({
           url: getUrl(),
         }),
       ],
-    }),
-  )
+    })
+  })
   return (
     <QueryClientProvider client={queryClient}>
       <TRPCProvider trpcClient={trpcClient} queryClient={queryClient}>
