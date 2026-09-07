@@ -6,3 +6,6 @@ packages:
 
 linkWorkspacePackages: deep
 ignoreWorkspaceRootCheck: true
+allowBuilds:
+  esbuild: false
+  sharp: false
