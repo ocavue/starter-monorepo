@@ -18,6 +18,7 @@
     "fix:tsconfig": "monorepo-typescript-references fix"
   },
   "devDependencies": {
+    "@types/node": "^24.0.0",
     "@ocavue/eslint-config": "^4.4.0",
     "@ocavue/tsconfig": "^0.7.0",
     "eslint": "^10.1.0",

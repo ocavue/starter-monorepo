@@ -115,6 +115,9 @@ importers:
       '@ocavue/tsconfig':
         specifier: ^0.7.0
         version: 0.7.1
+      '@types/node':
+        specifier: ^24.0.0
+        version: 24.13.3
       eslint:
         specifier: ^10.1.0
         version: 10.10.0(jiti@2.7.0)
