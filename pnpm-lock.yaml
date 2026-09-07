@@ -110,10 +110,10 @@ importers:
   .:
     devDependencies:
       '@ocavue/eslint-config':
-        specifier: ^4.4.0
+        specifier: ^4.16.1
         version: 4.16.1(@typescript-eslint/parser@8.69.0(eslint@10.10.0(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/typescript-estree@8.69.0(typescript@6.0.3))(@typescript-eslint/utils@8.69.0(eslint@10.10.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.10.0(jiti@2.7.0))(typescript@6.0.3)
       '@ocavue/tsconfig':
-        specifier: ^0.7.0
+        specifier: ^0.7.1
         version: 0.7.1
       '@types/node':
         specifier: ^24.0.0
@@ -122,10 +122,10 @@ importers:
         specifier: ^10.1.0
         version: 10.10.0(jiti@2.7.0)
       monorepo-typescript-references:
-        specifier: ^1.1.1
+        specifier: ^1.1.2
         version: 1.1.2
       prettier:
-        specifier: ^3.8.1
+        specifier: ^3.9.6
         version: 3.9.6
       prettier-plugin-astro:
         specifier: ^0.14.1
@@ -134,7 +134,7 @@ importers:
         specifier: ^2.9.1
         version: 2.10.12
       typescript:
-        specifier: ^6.0.0
+        specifier: ^6.0.3
         version: 6.0.3
 
   apps/astro-app:
@@ -143,19 +143,19 @@ importers:
         specifier: ^5.95.2
         version: 5.102.8(react@19.2.8)
       '@trpc/client':
-        specifier: ^11.16.0
+        specifier: ^11.18.0
         version: 11.18.0(@trpc/server@11.18.0(typescript@6.0.3))(typescript@6.0.3)
       '@trpc/react-query':
-        specifier: ^11.16.0
+        specifier: ^11.18.0
         version: 11.18.0(@tanstack/react-query@5.102.8(react@19.2.8))(@trpc/client@11.18.0(@trpc/server@11.18.0(typescript@6.0.3))(typescript@6.0.3))(@trpc/server@11.18.0(typescript@6.0.3))(react@19.2.8)(typescript@6.0.3)
       '@trpc/tanstack-react-query':
-        specifier: ^11.16.0
+        specifier: ^11.18.0
         version: 11.18.0(@tanstack/react-query@5.102.8(react@19.2.8))(@trpc/client@11.18.0(@trpc/server@11.18.0(typescript@6.0.3))(typescript@6.0.3))(@trpc/server@11.18.0(typescript@6.0.3))(react@19.2.8)(typescript@6.0.3)
       react:
-        specifier: ^19.2.4
+        specifier: ^19.2.8
         version: 19.2.8
       react-dom:
-        specifier: ^19.2.4
+        specifier: ^19.2.8
         version: 19.2.8(react@19.2.8)
     devDependencies:
       '@astrojs/react':
@@ -171,13 +171,13 @@ importers:
         specifier: workspace:^
         version: link:../../packages/utils
       '@tailwindcss/vite':
-        specifier: ^4.2.2
+        specifier: ^4.3.3
         version: 4.3.3(vite@8.2.2(@types/node@24.13.3)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0))
       '@trpc/server':
-        specifier: ^11.16.0
+        specifier: ^11.18.0
         version: 11.18.0(typescript@6.0.3)
       '@types/react':
-        specifier: ^19.2.14
+        specifier: ^19.2.18
         version: 19.2.18
       '@types/react-dom':
         specifier: ^19.2.3
@@ -186,10 +186,10 @@ importers:
         specifier: ^7.3.1
         version: 7.3.1(@astrojs/markdown-remark@7.3.0)(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@24.13.3)(@vercel/functions@3.9.5)(jiti@2.7.0)(yaml@2.9.0)
       tailwindcss:
-        specifier: ^4.2.2
+        specifier: ^4.3.3
         version: 4.3.3
       typescript:
-        specifier: ^6.0.0
+        specifier: ^6.0.3
         version: 6.0.3
 
   apps/docs:
@@ -213,29 +213,29 @@ importers:
         specifier: ^16.2.1
         version: 16.3.4(@babel/core@7.29.7)(@types/node@24.13.3)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       react:
-        specifier: ^19.2.4
+        specifier: ^19.2.8
         version: 19.2.8
       react-dom:
-        specifier: ^19.2.4
+        specifier: ^19.2.8
         version: 19.2.8(react@19.2.8)
     devDependencies:
       '@tailwindcss/postcss':
-        specifier: ^4.2.2
+        specifier: ^4.3.3
         version: 4.3.3
       '@types/node':
         specifier: ^24.9.2
         version: 24.13.3
       '@types/react':
-        specifier: ^19.2.14
+        specifier: ^19.2.18
         version: 19.2.18
       '@types/react-dom':
         specifier: ^19.2.3
         version: 19.2.7(@types/react@19.2.18)
       tailwindcss:
-        specifier: ^4.2.2
+        specifier: ^4.3.3
         version: 4.3.3
       typescript:
-        specifier: ^6.0.0
+        specifier: ^6.0.3
         version: 6.0.3
 
   packages/api:
@@ -244,7 +244,7 @@ importers:
         specifier: workspace:*
         version: link:../utils
       '@trpc/server':
-        specifier: ^11.16.0
+        specifier: ^11.18.0
         version: 11.18.0(typescript@6.0.3)
       uuid:
         specifier: ^14.0.0
@@ -254,7 +254,7 @@ importers:
         version: 4.5.4
     devDependencies:
       typescript:
-        specifier: ^6.0.0
+        specifier: ^6.0.3
         version: 6.0.3
 
   packages/utils:
@@ -263,7 +263,7 @@ importers:
         specifier: ^0.23.0
         version: 0.23.0(typescript@6.0.3)(unrun@0.2.39(synckit@0.11.13))
       typescript:
-        specifier: ^6.0.0
+        specifier: ^6.0.3
         version: 6.0.3
 
 packages:
