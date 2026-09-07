@@ -12,8 +12,8 @@
     "build": "tsdown"
   },
   "devDependencies": {
-    "tsdown": "^0.21.7",
-    "typescript": "^5.9.3"
+    "tsdown": "^0.23.0",
+    "typescript": "^6.0.0"
   },
   "publishConfig": {
     "access": "public",
